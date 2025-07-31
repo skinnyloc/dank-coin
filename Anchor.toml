@@ -1,0 +1,9 @@
+[programs.devnet]
+dank_coin = "ReplaceWithYourProgramID"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "mocha"

@@ -1,0 +1,13 @@
+[package]
+name = "dank_coin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "dank_coin"
+path = "programs/dank_coin/src/lib.rs"
